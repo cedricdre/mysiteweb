@@ -37,3 +37,9 @@ function hideHeaderScroll() {
 document.addEventListener("DOMContentLoaded", function () {
     hideHeaderScroll();
 });
+
+
+// AOS
+AOS.init({
+    duration: 700
+});
