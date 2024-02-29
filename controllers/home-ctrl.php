@@ -1,5 +1,5 @@
 <?php
-$title = 'Graphiste, Webdesigner & Développeur Web';
+$title = 'Graphiste, Webdesigner & Développeur Web, à Amiens, Hauts-de-France';
 
 
 // include VIEWS

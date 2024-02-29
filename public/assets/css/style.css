@@ -10,6 +10,15 @@ body {
     font-weight: 900;
     font-style: normal;
 }
+/* Typo "p" mobil */
+.fs-5 {
+    font-size: 1rem!important;
+}
+@media all and (min-width: 992px) {
+    .fs-5 {
+        font-size: 1.25rem!important;
+    }
+}
 /* Colors */
 .bg-green {
     background-color: var(--my-green);
@@ -58,7 +67,17 @@ body {
 /* img profil */
 .img-fluid-profil {
     width: 100%;
-    height: 600px;
+    height: 350px;
+}
+@media all and (min-width: 992px) {
+    .img-fluid-profil {
+        height: 600px;
+    }
+}
+@media all and (min-width: 1200px) {
+    .img-fluid-profil {
+        height: 600px;
+    }
 }
 /* Software */
 .img-logo {
