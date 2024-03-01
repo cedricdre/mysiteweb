@@ -2,7 +2,10 @@
     <div class="container">
         <div class="card text-bg-dark rounded-5 p-lg-5">
             <div class="card-body p-4 p-lg-5">
-                <h1 class="fw-black display-4 mb-4"><?= $title ?> <span><img src="/public/assets/img/logo-dreue-green.svg" height="50" alt="logo cedric dreue"></span></h1>
+                <div class="d-flex">
+                    <h1 class="fw-black display-5 mb-4"><?= $title ?></h1>
+                    <img src="/public/assets/img/logo-dreue-green.svg" class="ms-1 copyright" alt="logo cedric dreue">
+                </div>
                 <h5 class="mb-4">Identité visuelle | Site Web </h5>
                 <p class="fs-5 mb-3"><i class="bi bi-quote text-green"></i> Localco : Abonnez-vous aux frais est une plateforme en ligne qui relie les producteurs locaux aux consommateurs en quête de produits frais de saison. La mission est de promouvoir une alimentation locale, saine et durable tout en soutenant les agriculteurs locaux. <i class="bi bi-quote text-green"></i></p>
                 <p class="fs-5 mb-3">Projet réalisé pour l'obtention du Titre Professionnel “Développeur Web et Web Mobile” à La Manu, Amiens.</p>

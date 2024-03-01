@@ -2,7 +2,10 @@
     <div class="container">
         <div class="card text-bg-dark rounded-5 p-lg-5">
             <div class="card-body p-4 p-lg-5">
-                <h1 class="fw-black display-4 mb-4"> <?= $title ?> <span><img src="/public/assets/img/logo-dreue-green.svg" height="50" alt="logo cedric dreue"></span></h1>
+                <div class="d-flex">
+                    <h1 class="fw-black display-5 mb-4"><?= $title ?></h1>
+                    <img src="/public/assets/img/logo-dreue-green.svg" class="ms-1 copyright" alt="logo cedric dreue">
+                </div>
                 <h5 class="mb-0">Logotypes | Carte de visite</h5>
             </div>
         </div>

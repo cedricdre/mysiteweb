@@ -1,5 +1,5 @@
 </main>
-    <footer class="my-4 my-lg-5" data-aos="fade-up">
+    <footer class="my-4 my-lg-5">
         <div class="container">
             <div class="card text-bg-dark rounded-5 p-lg-5">
                 <div class="card-body p-4 p-lg-5">
@@ -19,16 +19,16 @@
                         Télécharger mon C.V
                         <i class="bi bi-file-earmark-pdf-fill mb-2"></i>
                     </a>
-                    <a class="btn btn-lg btn-outline-light rounded-4 mb-3 me-2" href="https://www.linkedin.com/in/cedric-dreue/" target="_blank"><i class="bi bi-linkedin mb-2"></i></a>
-                    <a class="btn btn-lg btn-outline-light rounded-4 mb-3 me-2" href="https://github.com/cedricdre" target="_blank"><i class="bi bi-github mb-2"></i></a>
+                    <a class="btn btn-lg btn-outline-light rounded-4 mb-3 me-2" href="https://www.linkedin.com/in/cedric-dreue/" target="_blank" aria-label="Lien vers LinkedIn"><i class="bi bi-linkedin mb-2"></i></a>
+                    <a class="btn btn-lg btn-outline-light rounded-4 mb-3 me-2" href="https://github.com/cedricdre" target="_blank" aria-label="Lien vers GitHub"><i class="bi bi-github mb-2"></i></a>
                 </div>
             </div>
             <ul class="nav justify-content-center mt-4">
                 <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true"><img src="/public/assets/img/logo-dreue-black.svg" height="20" class="mb-1 me-2" alt="logo cedric dreue"><span class="fw-black">C.Dreue</span>, 2024. Tous droits réservés</a>
+                    <a class="nav-link disabled" href="/" aria-disabled="true"><img src="/public/assets/img/logo-dreue-black.svg" height="20" class="mb-1 me-2" alt="logo cedric dreue"><span class="fw-black">C.Dreue</span>, 2024. Tous droits réservés</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link link-secondary" aria-current="page" href="/controllers/mentions-legales-ctrl.php">Mentions légales</a>
+                    <a class="nav-link link-secondary" href="/mentions-legales">Mentions légales</a>
                 </li>
             </ul>
         </div>

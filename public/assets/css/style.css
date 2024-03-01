@@ -178,3 +178,34 @@ transform: scale(1.3);
     backdrop-filter: blur(3px);
     -webkit-backdrop-filter: blur(5px);
 }
+
+.copyright {
+    height: 35px;
+}
+@media all and (min-width: 992px) {
+    .copyright {
+        height: 45px;
+    }
+}
+
+
+
+.banner {
+    background-image: url('/public/assets/img/cover-cedric-dreue.gif');
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius:2rem;
+}
+
+.banner::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius:2rem;
+}

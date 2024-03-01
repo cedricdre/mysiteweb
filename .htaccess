@@ -1,0 +1,9 @@
+RewriteEngine On
+RewriteRule ^home$ /controllers/home-ctrl.php [L]
+RewriteRule ^mentions-legales$ /controllers/mentions-legales-ctrl.php [L]
+RewriteRule ^portfolio-le-lapin-picard$ /controllers/portfolio/le-lapin-picard-ctrl.php [L]
+RewriteRule ^portfolio-maison-lou-et-moi$ /controllers/portfolio/maison-lou-et-moi-ctrl.php [L]
+RewriteRule ^portfolio-pupin-avocat$ /controllers/portfolio/pupin-avocat-ctrl.php [L]
+RewriteRule ^portfolio-alexandre-avocat$ /controllers/portfolio/alexandre-avocat-ctrl.php [L]
+RewriteRule ^portfolio-localco$ /controllers/portfolio/localco-ctrl.php [L]
+RewriteRule ^portfolio-caees$ /controllers/portfolio/caees-ctrl.php [L]

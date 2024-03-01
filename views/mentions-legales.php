@@ -1,12 +1,11 @@
 <section class="my-4 my-lg-5">
     <div class="container">
         <div class="row justify-content-center">
-            <div class="col-lg-6" data-aos="fade-up">
+            <div class="col-lg-6">
                 <h1 class="fw-black display-4 mb-4"><?= $title ?></h1>
 
                 <p><span class="fw-bold">Responsable de publication :</span> Cédric Dreue<br>
                 <span class="fw-bold">Adresse :</span> 71 Rue de Verdun 80000 Amiens<br>
-                <span class="fw-bold">Téléphone :</span> +33650549647<br>
                 <span class="fw-bold"> Email :</span> <a class="link-success" href="mailto:hello@cedricdreue.fr">hello@cedricdreue.fr</a></p>
 
                 <p><span class="fw-bold">Hébergement :</span> HOSTINGER INTERNATIONAL LTD, 61 Lordou Vironos Street, 6023 Larnaca, Chypre<br>
